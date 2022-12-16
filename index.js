@@ -38,3 +38,15 @@ console.log(actual)
 let percentage = actual/max;
 
 console.log(percentage)
+
+
+let name = "Ilya";
+
+console.log( `hello ${1}` ); // ?
+
+console.log( `hello ${"name"}` ); // ?
+
+console.log( `hello ${name}` ); //
+
+
+
