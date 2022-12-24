@@ -8,6 +8,35 @@
     
 </head>
 <body>
+    <script>
+        function add7(num) {
+        return num + 7;
+        }
+        console.log(add7(5));
+
+        function multiply(num1, num2) {
+        return num1 * num2;
+        }
+        console.log(multiply(5, 7)); 
+
+        function sum(num1,num2) {
+        return num1 + num2;
+        }
+        console.log(sum(5, 7)); 
+        function capitalize(str) {
+  // Convert the first letter to uppercase
+  let firstLetter = str[0].toUpperCase();
+  // Convert the rest of the string to lowercase
+  let restOfString = str.slice(1).toLowerCase();
+  // Return the capitalized string
+  return firstLetter + restOfString;
+}
+ function lastLetter(str) {
+  return str[str.length - 1];
+}
+ console.log(lastLetter("abcd")); 
+
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
