@@ -8,7 +8,7 @@ let x = 4+6+9
 console.log(x)
 
 let z = x/77
-ll
+
 console.log(z)
 
 //console.log(4 + 6 + 9) / 77
