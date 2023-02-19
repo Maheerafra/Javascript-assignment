@@ -2,7 +2,7 @@
 console.log(23 + 97)
 
 console.log(23 + 97 + 20 + 30 + 40 + 50 + 10)
-
+ll
 let x = 4+6+9
 
 console.log(x)
